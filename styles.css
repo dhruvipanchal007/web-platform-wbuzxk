@@ -115,3 +115,57 @@ a{
 i{
   margin-left: 10px;
 }
+.contact-section{
+  background-color: #303841;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+  width: 100%;
+}
+.contact-header h1{
+  margin-top: 0;
+  padding-top: 50px;
+  color: #f0f0f0;
+  font-size: 60px;
+  margin-bottom: 0;
+}
+.contact-header p{
+  font-size: 18px;
+  font-style: italic;
+  align-items: center;
+  text-align: center;
+  color: rgb(240, 240, 240);
+  font-weight: 400;
+  font-family: 'poppind',sans-serif;
+  margin-top: 0;
+  padding-top: 5px;
+}
+.contact-links{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 980px;
+  margin-top: 40px;
+}
+.contact-links i{
+  font-size: 24px;
+}
+.contact-details{
+  font-size: 24px;
+  text-shadow: 2px 2px 1px #1f1f1f;
+}
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  border-top: 4px solid #be3144;
+  background-color: #303841;
+}
+.footer p{
+  color: #f0f0f0;
+  font-size: 18px;
+  margin: 20px;
+
+}
